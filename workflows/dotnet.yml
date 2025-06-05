@@ -1,0 +1,34 @@
+name: .NET Build and Test
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+env:
+  DOTNET_VERSION: '7.0.x'  # Adjust to your project's .NET version
+  CONFIGURATION: 'Release'
+  SOLUTION_FILE: 'Zoo Management System.sln'
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: ${{ env.DOTNET_VERSION }}
+
+    - name: Restore dependencies
+      run: dotnet restore "${{ env.SOLUTION_FILE }}"
+
+    - name: Build
+      run: dotnet build "${{ env.SOLUTION_FILE }}" --configuration ${{ env.CONFIGURATION }} --no-restore
+
+    - name: Test
+      run: dotnet test "${{ env.SOLUTION_FILE }}" --configuration ${{ env.CONFIGURATION }} --no-build --verbosity normal
