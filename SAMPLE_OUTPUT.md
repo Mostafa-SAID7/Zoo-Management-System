@@ -1,64 +1,109 @@
+# 🐾 Sample Output (Interactive)
 
-## Usage
+This file shows example console output including user input prompts and responses.
 
-1. Launch the application
-2. Follow the on-screen prompts to:
-   - Enter the temperature value
-   - Select the source temperature scale
-   - Select the target temperature scale
-3. View the converted result
-4. Choose to perform another conversion or exit
+---
 
-### Example Usage
-```
-Welcome to Temperature Converter!
+## Program Start
 
-Enter temperature value: 100
-Select source scale:
-1. Celsius
-2. Fahrenheit
-3. Kelvin
-Choice: 1
+##### Welcome to the Zoo Management System!
 
-Select target scale:
-1. Celsius
-2. Fahrenheit
-3. Kelvin
-Choice: 2
+- Select an option:
+- Add Animal
+- Add Staff
+- List Animals
+- List Staff
+- Exit
 
-Result: 100°C = 212°F
-```
+##### Enter your choice: 1
 
-## Temperature Conversion Formulas
+---
 
-The application uses the following standard conversion formulas:
+## Adding an Animal (User Input)
 
-**Celsius to Fahrenheit:**
-```
-°F = (°C × 9/5) + 32
-```
+- Enter animal name: Leo
+- Enter species: Lion
+- Enter age: 5
+- Enter enclosure: Savannah
+- Animal added successfully!
 
-**Celsius to Kelvin:**
-```
-K = °C + 273.15
-```
+##### Select an option:
 
-**Fahrenheit to Celsius:**
-```
-°C = (°F - 32) × 5/9
-```
+- Add Animal
+- Add Staff
+- List Animals
+- List Staff
+- Exit
 
-**Fahrenheit to Kelvin:**
-```
-K = (°F - 32) × 5/9 + 273.15
-```
+##### Enter your choice: 2
 
-**Kelvin to Celsius:**
-```
-°C = K - 273.15
-```
+---
 
-**Kelvin to Fahrenheit:**
-```
-°F = (K - 273.15) × 9/5 + 32
-```
+## Adding a Staff Member (User Input)
+
+- Enter staff name: Sarah Lee
+- Enter role: Veterinarian
+- Enter contact info: sarah.lee@zoo.com
+- Staff member added successfully!
+
+##### Select an option:
+
+- Add Animal
+- Add Staff
+- List Animals
+- List Staff
+- Exit
+
+##### Enter your choice: 3
+
+---
+
+## Listing Animals
+
+- List of Animals in the Zoo:
+- Name: Leo, Species: Lion, Age: 5, Enclosure: Savannah
+
+##### Select an option:
+
+- Add Animal
+- Add Staff
+- List Animals
+- List Staff
+- Exit
+
+##### Enter your choice: 4
+
+---
+
+## Listing Staff
+
+- List of Staff in the Zoo:
+- Name: Sarah Lee, Role: Veterinarian, Contact: sarah.lee@zoo.com
+
+##### Select an option:
+
+- Add Animal
+- Add Staff
+- List Animals
+- List Staff
+- Exit
+
+##### Enter your choice: 5
+
+---
+
+## Exiting
+
+Thank you for using the Zoo Management System. Goodbye!
+
+---
+
+### Notes
+
+- This interaction shows adding one animal and one staff member.
+- The menu loops until the user selects Exit.
+- Input validation and error handling can be added in future versions.
+
+---
+
+*Feel free to modify the program to support more complex operations and data persistence!*
