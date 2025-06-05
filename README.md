@@ -43,9 +43,9 @@ The current implementation is a **console-based prototype** showcasing object-or
 
 1. Clone the repository or copy the source files into a C# project.
 2. Build the project using your IDE or via command line:
-   ```bash
-   dotnet build
-
+```
+dotnet build
+```
 #### Run the project:
 ```
 dotnet run
