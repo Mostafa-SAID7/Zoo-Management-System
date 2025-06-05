@@ -28,16 +28,10 @@ The current implementation is a **console-based prototype** showcasing object-or
 
 ### Prerequisites
 
-- [.NET SDK](https://dotnet.microsoft.com/download) (version 6.0 or higher recommended)  
+- <a href="https://dotnet.microsoft.com/download" target="_blank">
+    <img src="https://img.shields.io/badge/.NET_SDK-6.0-blue?style=for-the-badge&logo=dotnet&logoColor=white" alt=".NET SDK Download"/>
+  </a> (version 6.0 or higher recommended)  
 - A C# IDE or editor like Visual Studio, Visual Studio Code, or Rider  
-
-<div>
-  <a href="https://dotnet.microsoft.com/download" style="text-decoration:none;">
-    <button style="background-color:#0078D7;color:white;padding:10px 20px;border:none;border-radius:5px;cursor:pointer;">
-      Download .NET SDK
-    </button>
-  </a>
-</div>
 
 ### Running the Project
 
