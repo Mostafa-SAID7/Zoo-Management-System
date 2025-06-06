@@ -1,0 +1,30 @@
+name: .NET Desktop CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: '7.0.x'
+
+    - name: Restore dependencies
+      run: dotnet restore ZooManagementSystemSolution.sln
+
+    - name: Build solution
+      run: dotnet build ZooManagementSystemSolution.sln --configuration Release --no-restore
+
+    - name: Run tests (if any)
+      run: dotnet test ZooManagementSystemSolution.sln --no-build --verbosity normal
+      # If you have no tests, you can remove this step
