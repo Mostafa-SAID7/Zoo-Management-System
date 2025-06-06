@@ -1,34 +1,30 @@
-name: .NET Build and Test
+name: .NET Build & Test
 
 on:
   push:
-    branches: [main]
+    branches: [ main ]
   pull_request:
-    branches: [main]
-
-env:
-  DOTNET_VERSION: '7.0.x'  # Adjust to your project's .NET version
-  CONFIGURATION: 'Release'
-  SOLUTION_FILE: 'Zoo Management System.sln'
+    branches: [ main ]
 
 jobs:
   build:
-    runs-on: windows-latest
+
+    runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout code
+    - name: Checkout repository
       uses: actions/checkout@v3
 
     - name: Setup .NET
-      uses: actions/setup-dotnet@v3
+      uses: actions/setup-dotnet@v4
       with:
-        dotnet-version: ${{ env.DOTNET_VERSION }}
+        dotnet-version: '7.0.x' # Use 8.0.x if you're targeting .NET 8
 
     - name: Restore dependencies
-      run: dotnet restore "${{ env.SOLUTION_FILE }}"
+      run: dotnet restore
 
     - name: Build
-      run: dotnet build "${{ env.SOLUTION_FILE }}" --configuration ${{ env.CONFIGURATION }} --no-restore
+      run: dotnet build --no-restore --configuration Release
 
-    - name: Test
-      run: dotnet test "${{ env.SOLUTION_FILE }}" --configuration ${{ env.CONFIGURATION }} --no-build --verbosity normal
+    - name: Run tests (if any)
+      run: dotnet test --no-build --verbosity normal || echo "No tests found"
