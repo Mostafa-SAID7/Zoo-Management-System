@@ -1,6 +1,6 @@
 # 🦁 Zoo Management System
 
-A **simple Zoo Management System** implemented in **C#** to manage animals and staff with basic CRUD operations and listing features.
+A console-based application written in C# to help manage a zoo’s animals, enclosures, feeding schedules, and medical records.
 
 ---
 
@@ -18,11 +18,17 @@ The current implementation is a **console-based prototype** showcasing object-or
 
 ## 🚀 Features
 
-- ✅ Add new animals and staff  
-- ✅ Display lists of animals and staff  
-- ✅ Simple class structure with `Animal`, `Staff`, and `ZooManagement` classes  
+- Add and manage enclosures with capacity limits
+- Add animals to enclosures and transfer animals between enclosures
+- Search animals by name or species
+- Manage medical records for each animal (add/view diagnosis and treatment history)
+- Set and update feeding schedules (food type and feeding time) per animal
+- Save and load data persistently using JSON files
 
 ---
+## Data Persistence
+
+All zoo data (enclosures, animals, feeding schedules, medical records) are saved in JSON format under the Data/zoo_data.json file automatically when you choose “Save & Exit” from the menu.
 
 ## 🛠️ Getting Started
 
@@ -48,10 +54,17 @@ The console app will demonstrate adding some animals and staff, then listing the
 
 ### Project Structure
 
-- Animal.cs - Defines the Animal class
-- Staff.cs - Defines the Staff class
-- ZooManagement.cs - Contains the management logic for animals and staff
-- Program.cs - Entry point with demo usage
+- `Program.cs` — Entry point of the application
+- `Models/` — Contains data models:
+  - `Animal.cs`
+  - `Enclosure.cs`
+  - `FeedingSchedule.cs`
+  - `MedicalRecord.cs`
+  - `Zookeeper.cs` (reserved for future expansion)
+- `Services/` — Core business logic and UI handling:
+  - `ZooManager.cs` — Manages all zoo operations
+  - `MenuService.cs` — Console menu and user interaction
+  - `DataService.cs` — Handles JSON data load/save operations
 
 ### Future Improvements
 
