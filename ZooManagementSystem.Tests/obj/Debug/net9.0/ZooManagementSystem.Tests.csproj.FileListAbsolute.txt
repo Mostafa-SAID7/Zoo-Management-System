@@ -1,5 +1,0 @@
-D:\Backend\Codes\Csharp\projects-Tasks\Systems\ZooManagement System\Zoo Management System\Zoo Management System\ZooManagementSystem.Tests\obj\Debug\net9.0\ZooManagementSystem.Tests.csproj.AssemblyReference.cache
-D:\Backend\Codes\Csharp\projects-Tasks\Systems\ZooManagement System\Zoo Management System\Zoo Management System\ZooManagementSystem.Tests\obj\Debug\net9.0\ZooManagementSystem.Tests.GeneratedMSBuildEditorConfig.editorconfig
-D:\Backend\Codes\Csharp\projects-Tasks\Systems\ZooManagement System\Zoo Management System\Zoo Management System\ZooManagementSystem.Tests\obj\Debug\net9.0\ZooManagementSystem.Tests.AssemblyInfoInputs.cache
-D:\Backend\Codes\Csharp\projects-Tasks\Systems\ZooManagement System\Zoo Management System\Zoo Management System\ZooManagementSystem.Tests\obj\Debug\net9.0\ZooManagementSystem.Tests.AssemblyInfo.cs
-D:\Backend\Codes\Csharp\projects-Tasks\Systems\ZooManagement System\Zoo Management System\Zoo Management System\ZooManagementSystem.Tests\obj\Debug\net9.0\ZooManagementSystem.Tests.csproj.CoreCompileInputs.cache
