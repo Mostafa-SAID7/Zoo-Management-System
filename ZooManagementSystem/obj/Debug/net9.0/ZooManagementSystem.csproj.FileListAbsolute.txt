@@ -1,0 +1,28 @@
+C:\Users\Mostafa\Desktop\prjs\C# prjs\ZooManagementSystemSolution\ZooManagementSystem\bin\Debug\net9.0\ZooManagementSystem.exe
+C:\Users\Mostafa\Desktop\prjs\C# prjs\ZooManagementSystemSolution\ZooManagementSystem\bin\Debug\net9.0\ZooManagementSystem.deps.json
+C:\Users\Mostafa\Desktop\prjs\C# prjs\ZooManagementSystemSolution\ZooManagementSystem\bin\Debug\net9.0\ZooManagementSystem.runtimeconfig.json
+C:\Users\Mostafa\Desktop\prjs\C# prjs\ZooManagementSystemSolution\ZooManagementSystem\bin\Debug\net9.0\ZooManagementSystem.dll
+C:\Users\Mostafa\Desktop\prjs\C# prjs\ZooManagementSystemSolution\ZooManagementSystem\bin\Debug\net9.0\ZooManagementSystem.pdb
+C:\Users\Mostafa\Desktop\prjs\C# prjs\ZooManagementSystemSolution\ZooManagementSystem\obj\Debug\net9.0\ZooManagementSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mostafa\Desktop\prjs\C# prjs\ZooManagementSystemSolution\ZooManagementSystem\obj\Debug\net9.0\ZooManagementSystem.AssemblyInfoInputs.cache
+C:\Users\Mostafa\Desktop\prjs\C# prjs\ZooManagementSystemSolution\ZooManagementSystem\obj\Debug\net9.0\ZooManagementSystem.AssemblyInfo.cs
+C:\Users\Mostafa\Desktop\prjs\C# prjs\ZooManagementSystemSolution\ZooManagementSystem\obj\Debug\net9.0\ZooManagementSystem.csproj.CoreCompileInputs.cache
+C:\Users\Mostafa\Desktop\prjs\C# prjs\ZooManagementSystemSolution\ZooManagementSystem\obj\Debug\net9.0\ZooManagementSystem.dll
+C:\Users\Mostafa\Desktop\prjs\C# prjs\ZooManagementSystemSolution\ZooManagementSystem\obj\Debug\net9.0\refint\ZooManagementSystem.dll
+C:\Users\Mostafa\Desktop\prjs\C# prjs\ZooManagementSystemSolution\ZooManagementSystem\obj\Debug\net9.0\ZooManagementSystem.pdb
+C:\Users\Mostafa\Desktop\prjs\C# prjs\ZooManagementSystemSolution\ZooManagementSystem\obj\Debug\net9.0\ZooManagementSystem.genruntimeconfig.cache
+C:\Users\Mostafa\Desktop\prjs\C# prjs\ZooManagementSystemSolution\ZooManagementSystem\obj\Debug\net9.0\ref\ZooManagementSystem.dll
+D:\Backend\Codes\Csharp\projects-Tasks\Systems\ZooManagementSystem\ZooManagementSystem\ZooManagementSystem\bin\Debug\net9.0\ZooManagementSystem.exe
+D:\Backend\Codes\Csharp\projects-Tasks\Systems\ZooManagementSystem\ZooManagementSystem\ZooManagementSystem\bin\Debug\net9.0\ZooManagementSystem.deps.json
+D:\Backend\Codes\Csharp\projects-Tasks\Systems\ZooManagementSystem\ZooManagementSystem\ZooManagementSystem\bin\Debug\net9.0\ZooManagementSystem.runtimeconfig.json
+D:\Backend\Codes\Csharp\projects-Tasks\Systems\ZooManagementSystem\ZooManagementSystem\ZooManagementSystem\bin\Debug\net9.0\ZooManagementSystem.dll
+D:\Backend\Codes\Csharp\projects-Tasks\Systems\ZooManagementSystem\ZooManagementSystem\ZooManagementSystem\bin\Debug\net9.0\ZooManagementSystem.pdb
+D:\Backend\Codes\Csharp\projects-Tasks\Systems\ZooManagementSystem\ZooManagementSystem\ZooManagementSystem\obj\Debug\net9.0\ZooManagementSystem.GeneratedMSBuildEditorConfig.editorconfig
+D:\Backend\Codes\Csharp\projects-Tasks\Systems\ZooManagementSystem\ZooManagementSystem\ZooManagementSystem\obj\Debug\net9.0\ZooManagementSystem.AssemblyInfoInputs.cache
+D:\Backend\Codes\Csharp\projects-Tasks\Systems\ZooManagementSystem\ZooManagementSystem\ZooManagementSystem\obj\Debug\net9.0\ZooManagementSystem.AssemblyInfo.cs
+D:\Backend\Codes\Csharp\projects-Tasks\Systems\ZooManagementSystem\ZooManagementSystem\ZooManagementSystem\obj\Debug\net9.0\ZooManagementSystem.csproj.CoreCompileInputs.cache
+D:\Backend\Codes\Csharp\projects-Tasks\Systems\ZooManagementSystem\ZooManagementSystem\ZooManagementSystem\obj\Debug\net9.0\ZooManagementSystem.dll
+D:\Backend\Codes\Csharp\projects-Tasks\Systems\ZooManagementSystem\ZooManagementSystem\ZooManagementSystem\obj\Debug\net9.0\refint\ZooManagementSystem.dll
+D:\Backend\Codes\Csharp\projects-Tasks\Systems\ZooManagementSystem\ZooManagementSystem\ZooManagementSystem\obj\Debug\net9.0\ZooManagementSystem.pdb
+D:\Backend\Codes\Csharp\projects-Tasks\Systems\ZooManagementSystem\ZooManagementSystem\ZooManagementSystem\obj\Debug\net9.0\ZooManagementSystem.genruntimeconfig.cache
+D:\Backend\Codes\Csharp\projects-Tasks\Systems\ZooManagementSystem\ZooManagementSystem\ZooManagementSystem\obj\Debug\net9.0\ref\ZooManagementSystem.dll

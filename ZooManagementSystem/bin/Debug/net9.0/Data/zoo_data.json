@@ -1,0 +1,18 @@
+[
+  {
+    "Name": "cat",
+    "Capacity": 5,
+    "Animals": [
+      {
+        "Name": "cat",
+        "Species": "run",
+        "Age": 2,
+        "FeedingSchedule": {
+          "Food": null,
+          "Time": "00:00:00"
+        },
+        "MedicalRecords": []
+      }
+    ]
+  }
+]
