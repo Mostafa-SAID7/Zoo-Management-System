@@ -6,104 +6,107 @@ This file shows example console output including user input prompts and response
 
 ## Program Start
 
-##### Welcome to the Zoo Management System!
+=== Zoo Management System ===
+1. Add Enclosure
+2. Add Animal
+3. View Animals
+4. Transfer Animal
+5. Search Animals
+6. Add Medical Record
+7. View Medical Records
+8. Update Feeding Schedule
+9. Save & Exit
+Choose an option: 1
 
-- Select an option:
-- Add Animal
-- Add Staff
-- List Animals
-- List Staff
-- Exit
+Enter enclosure name: Savannah
+Enter capacity: 5
+Press Enter to continue...
 
-##### Enter your choice: 1
+=== Zoo Management System ===
+1. Add Enclosure
+2. Add Animal
+3. View Animals
+4. Transfer Animal
+5. Search Animals
+6. Add Medical Record
+7. View Medical Records
+8. Update Feeding Schedule
+9. Save & Exit
+Choose an option: 2
 
----
+Enter enclosure name: Savannah
+Animal name: Leo
+Species: Lion
+Age: 4
+Press Enter to continue...
 
-## Adding an Animal (User Input)
+=== Zoo Management System ===
+1. Add Enclosure
+2. Add Animal
+3. View Animals
+4. Transfer Animal
+5. Search Animals
+6. Add Medical Record
+7. View Medical Records
+8. Update Feeding Schedule
+9. Save & Exit
+Choose an option: 3
 
-- Enter animal name: Leo
-- Enter species: Lion
-- Enter age: 5
-- Enter enclosure: Savannah
-- Animal added successfully!
+Enclosure name: Savannah
+Animals in Savannah:
+- Leo, Lion, 4 years old
+Press Enter to continue...
 
-##### Select an option:
+=== Zoo Management System ===
+1. Add Enclosure
+2. Add Animal
+3. View Animals
+4. Transfer Animal
+5. Search Animals
+6. Add Medical Record
+7. View Medical Records
+8. Update Feeding Schedule
+9. Save & Exit
+Choose an option: 6
 
-- Add Animal
-- Add Staff
-- List Animals
-- List Staff
-- Exit
+Enter enclosure name: Savannah
+Enter animal name: Leo
+Enter diagnosis: Minor wound on paw
+Enter treatment: Antibiotic ointment applied
+Medical record added.
+Press Enter to continue...
 
-##### Enter your choice: 2
+=== Zoo Management System ===
+1. Add Enclosure
+2. Add Animal
+3. View Animals
+4. Transfer Animal
+5. Search Animals
+6. Add Medical Record
+7. View Medical Records
+8. Update Feeding Schedule
+9. Save & Exit
+Choose an option: 7
 
----
+Enter enclosure name: Savannah
+Enter animal name: Leo
+Medical Records for Leo:
+- Date: 2025-06-06, Diagnosis: Minor wound on paw, Treatment: Antibiotic ointment applied
+Press Enter to continue...
 
-## Adding a Staff Member (User Input)
+=== Zoo Management System ===
+1. Add Enclosure
+2. Add Animal
+3. View Animals
+4. Transfer Animal
+5. Search Animals
+6. Add Medical Record
+7. View Medical Records
+8. Update Feeding Schedule
+9. Save & Exit
+Choose an option: 9
 
-- Enter staff name: Sarah Lee
-- Enter role: Veterinarian
-- Enter contact info: sarah.lee@zoo.com
-- Staff member added successfully!
+Data saved. Exiting...
 
-##### Select an option:
-
-- Add Animal
-- Add Staff
-- List Animals
-- List Staff
-- Exit
-
-##### Enter your choice: 3
-
----
-
-## Listing Animals
-
-- List of Animals in the Zoo:
-- Name: Leo, Species: Lion, Age: 5, Enclosure: Savannah
-
-##### Select an option:
-
-- Add Animal
-- Add Staff
-- List Animals
-- List Staff
-- Exit
-
-##### Enter your choice: 4
-
----
-
-## Listing Staff
-
-- List of Staff in the Zoo:
-- Name: Sarah Lee, Role: Veterinarian, Contact: sarah.lee@zoo.com
-
-##### Select an option:
-
-- Add Animal
-- Add Staff
-- List Animals
-- List Staff
-- Exit
-
-##### Enter your choice: 5
-
----
-
-## Exiting
-
-Thank you for using the Zoo Management System. Goodbye!
-
----
-
-### Notes
-
-- This interaction shows adding one animal and one staff member.
-- The menu loops until the user selects Exit.
-- Input validation and error handling can be added in future versions.
-
----
 
 *Feel free to modify the program to support more complex operations and data persistence!*
