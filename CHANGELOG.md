@@ -1,45 +1,40 @@
-# 📜 Changelog
+# 📌 Changelog
 
 All notable changes to this project will be documented in this file.
 
----
-
-## [1.0.0] - 2025-06-05
-
-<div>
-  <img src="https://img.shields.io/badge/Release-1.0.0-brightgreen?style=for-the-badge" alt="Release 1.0.0"/>
-</div>
-
-### Added
-- Initial release of Zoo Management System
-- Core classes: `Animal`, `Staff`, and `ZooManagement`
-- Basic functionality to add and list animals and staff
-- Console app demo with sample data
-
-### Fixed
-- N/A (first release)
-
-### Changed
-- N/A (first release)
+This project adheres to [Semantic Versioning](https://semver.org/).
 
 ---
 
-## [0.1.0] - 2025-05-30
+## [v1.0.0] - 2025-06-08
 
-<div>
-  <img src="https://img.shields.io/badge/Pre-Release-0.1.0-yellow?style=for-the-badge" alt="Pre-release 0.1.0"/>
-</div>
+🎉 Initial release of the **Zoo Management System (Console Application)**.
 
-### Added
-- Project setup and initial scaffolding
-- Class definitions without full functionality
+### ✨ Features
+- 🐘 Add, update, delete, and list animal records
+- 👨‍🔧 Manage zoo staff data
+- 🎫 Record and view visitor information
+- 💾 Basic file I/O system to persist data locally
+- 🧱 Structured using Object-Oriented Programming principles
+- 🖥️ Clean, interactive CLI-based interface
+
+### 🛠 Built With
+- C#
+- .NET Framework (or .NET Core)
+- Visual Studio
 
 ---
 
-## How to Use This File
+## [Planned Features] – Upcoming
+> These are not yet implemented, but considered for future versions:
 
-This changelog follows [Semantic Versioning](https://semver.org/) and documents features, fixes, and changes per version.
+- ✅ Input validation improvements
+- 📊 Reporting tools (e.g., total visitors, animals by type)
+- 🗂️ Refactor to use JSON or a local database for persistence
+- 🔒 Role-based access (admin vs. staff)
+- 📦 Packaged `.exe` release
 
 ---
 
-Feel free to update this file with every new version or patch!
+*This is the first official stable version.*
+
